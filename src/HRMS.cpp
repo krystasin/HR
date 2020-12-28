@@ -58,8 +58,7 @@ void HRMS::printDepartment(const std::string dep)
 
 int HRMS::changeSalary(std::string employeeId, double salary)
 {
-    if (salary < 1)
-        return 1;
+    if (salary <= 0)  throw std::runtime_error{ "-!-nie zmieniono pensji pracownika "+ employeeId +". Zbyt niska pensja -!-" };
     emp_salary[employeeId] = salary;
     std::cout << "log: zmieniono pensje pracownika " << employeeId <<" na " << salary <<"\n";
     return 0;

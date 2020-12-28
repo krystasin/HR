@@ -84,7 +84,20 @@ int main(int argc, char *argv[]){
     enis.printSalaries();    
     enis.printSalariesSorted();
 
-    enis.changeSalary("009", 33300.50f);
+    try
+    {    enis.changeSalary("009", 44444.f);
+    }
+    catch(const std::runtime_error& e)
+    {    std::cerr << e.what() << '\n';
+    }
+    
+    try
+    {   enis.changeSalary("001", 0.0f);
+    }
+    catch(const std::runtime_error& e)
+    {    std::cerr << e.what() << '\n';
+    }
+
     enis.printSalariesSorted();
 
 
