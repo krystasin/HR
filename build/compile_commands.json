@@ -1,0 +1,17 @@
+[
+{
+  "directory": "D:/STUDIA/III SEMESTR/JIPP/LAB-06/HR/build",
+  "command": "C:\\PROGRA~2\\MINGW-~1\\I686-8~1.0-P\\mingw32\\bin\\I686-W~2.EXE  @CMakeFiles/HR.dir/includes_CXX.rsp -g -o CMakeFiles\\HR.dir\\src\\main.cpp.obj -c \"D:\\STUDIA\\III SEMESTR\\JIPP\\LAB-06\\HR\\src\\main.cpp\"",
+  "file": "D:/STUDIA/III SEMESTR/JIPP/LAB-06/HR/src/main.cpp"
+},
+{
+  "directory": "D:/STUDIA/III SEMESTR/JIPP/LAB-06/HR/build",
+  "command": "C:\\PROGRA~2\\MINGW-~1\\I686-8~1.0-P\\mingw32\\bin\\I686-W~2.EXE  @CMakeFiles/HR.dir/includes_CXX.rsp -g -o CMakeFiles\\HR.dir\\src\\Employee.cpp.obj -c \"D:\\STUDIA\\III SEMESTR\\JIPP\\LAB-06\\HR\\src\\Employee.cpp\"",
+  "file": "D:/STUDIA/III SEMESTR/JIPP/LAB-06/HR/src/Employee.cpp"
+},
+{
+  "directory": "D:/STUDIA/III SEMESTR/JIPP/LAB-06/HR/build",
+  "command": "C:\\PROGRA~2\\MINGW-~1\\I686-8~1.0-P\\mingw32\\bin\\I686-W~2.EXE  @CMakeFiles/HR.dir/includes_CXX.rsp -g -o CMakeFiles\\HR.dir\\src\\HRMS.cpp.obj -c \"D:\\STUDIA\\III SEMESTR\\JIPP\\LAB-06\\HR\\src\\HRMS.cpp\"",
+  "file": "D:/STUDIA/III SEMESTR/JIPP/LAB-06/HR/src/HRMS.cpp"
+}
+]
